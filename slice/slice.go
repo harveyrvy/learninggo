@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	s := make([]int, 0)
+	s := make([]int, 0, 3)
 	for {
 		var x string
 		fmt.Println("Enter an integer to sort or X to stop")
