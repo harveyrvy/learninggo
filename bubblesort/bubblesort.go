@@ -58,7 +58,7 @@ func readInput() string {
 }
 
 func main() {
-	fmt.Println("Type in up to 10 integers for sorting:")
+	fmt.Println("Type in up to 10 integers for sorting (separated by spaces):")
 
 	inputs := readInput()
 
